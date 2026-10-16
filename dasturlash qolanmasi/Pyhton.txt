@@ -1,0 +1,32 @@
+# Python Dasturlash Tili Bo'yicha Qisqacha Qo'llanma
+
+Python - yuqori darajadagi, o'qish uchun juda qulay va sodda sintaksisga ega bo'lgan dasturlash tili.
+
+## 1. Asosiy tuzilma ("Hello, World!")
+```python
+print("Salom, Dunyo!")
+```
+
+## 2. O'zgaruvchilar va Ma'lumot turlari
+```python
+yosh = 20          # int
+narx = 19.99       # float
+ism = "Ali"        # str
+is_active = True   # bool
+```
+
+## 3. Shart operatorlari (if-else)
+```python
+son = 10
+if son > 0:
+    print("Musbat son")
+else:
+    print("Manfiy son")
+```
+
+## 4. Takrorlash operatorlari (Loops)
+```python
+# For sikli
+for i in range(5):
+    print(i)
+```

@@ -1,0 +1,40 @@
+# C++ Dasturlash Tili Bo'yicha Qisqacha Qo'llanma
+
+C++ - C tilining kengaytirilgan versiyasi bo'lib, obyektga yo'naltirilgan dasturlash imkoniyatlarini o'z ichiga oladi (O'yinlar va tezkor ilovalar uchun).
+
+## 1. Asosiy tuzilma ("Hello, World!")
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Salom, Dunyo!" << endl;
+    return 0;
+}
+```
+
+## 2. O'zgaruvchilar va Ma'lumot turlari
+```cpp
+int yosh = 20;
+double narx = 19.99;
+char belgi = 'A';
+string ism = "Ali";
+```
+
+## 3. Shart operatorlari (if-else)
+```cpp
+int son = 10;
+if (son > 0) {
+    cout << "Musbat son" << endl;
+} else {
+    cout << "Manfiy son" << endl;
+}
+```
+
+## 4. Takrorlash operatorlari (Loops)
+```cpp
+for (int i = 0; i < 5; i++) {
+    cout << i << endl;
+}
+```
+
